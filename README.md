@@ -3,12 +3,12 @@
 Bộ tài liệu này được thiết kế như một dạng tài liệu tham khảo, giúp các bạn nắm được tất cả những khái niệm và thành phần của C#. Vì ở dạng tham khảo nên sẽ có một số khó khăn và không phù hợp với người học từ đầu, nếu chưa biết gì về C#, bạn nên tìm một giáo trình đơn giản hơn và dùng tài liệu này để tham khảo kỹ hơn trong quá trình học.
 
 ### Nội dung  
-- [Hàm Main](main-function/main-function.md)
+- [Hàm Main](main-function/README.md)
     - [Tham số](main-function/parameter.md)
 	- [Top-level statements](main-function/top-level-statements.md)
     - [Hàm async Main](main-function/async-main.md)
 
-- [Hệ thống kiểu dữ liệu](type-system/type-system.md)
+- [Hệ thống kiểu dữ liệu](type-system/README.md)
 	- [Value type](type-system/value-type.md)
 	  - Các kiểu dữ liệu nullable
 	  - Boxing và Unboxing
@@ -34,7 +34,7 @@ Bộ tài liệu này được thiết kế như một dạng tài liệu tham k
       - using
       - extern alias
   - Ép kiểu
-- [Toán tử](operators.md)
+- [Toán tử](operators/README.md)
   - Các toán tử toán học
   - Các toán tử logic
   - Các toán tử trên bit
@@ -44,7 +44,7 @@ Bộ tài liệu này được thiết kế như một dạng tài liệu tham k
   - Các toán tử điều kiện
   - Toán tử ! (null-forgiving)
   - Toán tử =>
-- [Từ khóa](keywords.md)
+- [Từ khóa](keywords/README.md)
     - Modifier
       - Access modifier
         - public
@@ -75,8 +75,8 @@ Bộ tài liệu này được thiết kế như một dạng tài liệu tham k
       - fixed
       - lock
       - yield
-- [Phát biểu](keywords.md)
-- [Phương thức](methods.md)
+- [Phát biểu](statements/README.md)
+- [Phương thức](methods/README.md)
     - Khai báo
     - Gọi phương thức
     - Tham số

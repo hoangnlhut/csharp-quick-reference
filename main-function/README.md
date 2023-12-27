@@ -21,6 +21,18 @@ Các chương trình C#10 có thể dùng [Top-level statements](top-level-state
 }
 ```
 
+## Những cách khai báo hàm Main hợp lệ
+```csharp
+static void Main() { }
+static int Main() { }
+static void Main(string[] args) { }
+static int Main(string[] args) { }
+static async Task Main() { }
+static async Task<int> Main() { }
+static async Task Main(string[] args) { }
+static async Task<int> Main(string[] args) { }
+```
+
 - Hàm Main luôn được khai báo là `static`, `class` hoặc `struct` chứa Main và bản thân Main không bắt buộc phải là public.
 - Hàm Main có thể trả về một trong những kiểu sau: `void`, `int`, `Task`, or `Task<int>`. Trường hợp trả về int hoặc `Task<int>`, 
 Main có thể được khai báo là async và giá trị trả về sẽ là giá trị trả về cho chương trình gọi nó, ngược lại tương đương 
