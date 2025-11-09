@@ -49,5 +49,4 @@ Bộ tài liệu này được thiết kế như một dạng tài liệu tham k
         - ref readonly
         - in
 - [Chỉ thị tiền biên dịch](preprocessor-directives/README.md)
-        - params
 - [Tập hợp](collections.md)
