@@ -13,4 +13,5 @@ Bộ tài liệu này được thiết kế như một dạng tài liệu tham k
 - [Chỉ thị tiền biên dịch](preprocessor-directives.md)
 - [Exception](exceptions.md)
 - [Lập trình hướng đối tượng trong C#](oop.md)
-- [Tập hợp](collections.md)
+- [Tập hợp](collections-generics.md)
+- [LINQ](linq.md)
