@@ -640,7 +640,3 @@ Chọn async stream khi:
 4. Đảm bảo cleanup: `using` / `await using` + `finally`.
 5. Không dùng async stream khi thực chất bạn luôn cần “lấy hết rồi xử lý” → dùng `Task<List<T>>` là đủ.
 6. Không lạm dụng trong logic thuần CPU sync.
-
----
-
-> Chương này + chương “Phương thức (methods)” + chương “Hệ thống kiểu dữ liệu” sẽ tạo thành “trục xương sống” của cuốn *Tham khảo nhanh C#*.
