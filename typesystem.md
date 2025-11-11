@@ -39,7 +39,7 @@ sẽ dùng các thông tin này để đảm bảo an toàn kiểu khi nó cấp
   - [6. Enum \& `[Flags]`](#6-enum--flags)
   - [7. Tuples \& `ValueTuple`, deconstruction](#7-tuples--valuetuple-deconstruction)
   - [8. Records (record class / record struct)](#8-records-record-class--record-struct)
-  - [9. Mảng (arrays): 1D, nhiều chiều, jagged, `Span<T>` (overview)](#9-mảng-arrays-1d-nhiều-chiều-jagged-spant-overview)
+  - [9. Mảng (arrays): 1D, nhiều chiều, jagged, `Span<T>`](#9-mảng-arrays-1d-nhiều-chiều-jagged-spant)
   - [10. Nullable Reference Types (NRT)](#10-nullable-reference-types-nrt)
   - [11. Khai báo biến \& suy luận kiểu (`var`, target-typed, default literal)](#11-khai-báo-biến--suy-luận-kiểu-var-target-typed-default-literal)
   - [12. Giá trị mặc định (default values)](#12-giá-trị-mặc-định-default-values)
@@ -198,7 +198,7 @@ Console.WriteLine(u1 == u2); // false (so sánh theo giá trị)
 
 ---
 
-## 9. Mảng (arrays): 1D, nhiều chiều, jagged, `Span<T>` (overview)
+## 9. Mảng (arrays): 1D, nhiều chiều, jagged, `Span<T>`
 
 - **1D**: `T[]` phổ biến nhất.  
 - **Nhiều chiều**: `T[,]` (rectangular).  
