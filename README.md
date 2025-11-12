@@ -18,3 +18,4 @@ Bộ tài liệu này được thiết kế như một dạng tài liệu tham k
 - [Lập trình hướng đối tượng trong C#](oop.md)
 - [Tập hợp](collections-generics.md)
 - [LINQ](linq.md)
+- [Lập trình bất đồng bộ](async.md)
