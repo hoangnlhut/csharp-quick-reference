@@ -15,7 +15,7 @@ class HelloWorld
 }
 ```
 
-Các chương trình C#10 có thể dùng [Top-level statements](top-level-statements.md):
+Các chương trình C#10 có thể dùng [Top-level statements](main-function/top-level-statements.md):
 ```csharp
 		Console.WriteLine("Hello World!");
 }
