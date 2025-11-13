@@ -1,6 +1,10 @@
 # Tài liệu tham khảo ngôn ngữ lập trình C#
 
-Bộ tài liệu này được thiết kế như một dạng tài liệu tham khảo, giúp các bạn nắm được tất cả những khái niệm và thành phần của C#. Vì ở dạng tham khảo nên sẽ có một số khó khăn và không phù hợp với người học từ đầu, nếu chưa biết gì về C#, bạn nên tìm một giáo trình đơn giản hơn và dùng tài liệu này để tham khảo kỹ hơn trong quá trình học.
+Bộ tài liệu này được thiết kế như một dạng tài liệu tham khảo, giúp các bạn nắm được tất cả những khái niệm và thành phần của C#. Vì ở dạng tham khảo nên sẽ có một số khó khăn và không phù hợp với người học từ đầu, nếu chưa biết gì về C#, bạn nên tìm một giáo trình đơn giản hơn (xem bên dưới) và dùng tài liệu này để tham khảo kỹ hơn trong quá trình học.
+
+---
+
+Tham khảo khóa học này nếu bạn chưa biết về C# và .NET: [Khóa học .NET nền tảng](https://github.com/daohainam/lets-learn-dotnet)
 
 ---
 
