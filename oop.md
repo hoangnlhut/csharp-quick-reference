@@ -51,7 +51,7 @@ public class Counter
 ```
 
 - `const` nhúng giá trị vào call-site → **thay đổi const** cần rebuild nơi dùng.  
-- `readonly` cho phép gán ở **field initializer** hoặc **constructor**; không đổi sau đó.
+- `readonly` cho phép gán ở **field initializer** hoặc **constructor**; không đổi sau đó. Nên dùng bất kỳ khi nào có một **field** bạn không muốn thay đổi giá trị sau khi khởi tạo.
 
 ### 1.3 Access modifiers
 
