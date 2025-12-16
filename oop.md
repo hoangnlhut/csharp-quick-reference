@@ -22,7 +22,7 @@
     - [2.1 `virtual`/`override`/`abstract`/`sealed`](#21-virtualoverrideabstractsealed)
     - [2.2 `new` (method hiding)](#22-new-method-hiding)
     - [2.3 `base` \& constructor chaining](#23-base--constructor-chaining)
-    - [2.4 Class trừu tượng vs interface](#24-class-trừu-tượng-vs-interface)
+    - [2.4 Abstract class vs interface](#24-abstract-class-vs-interface)
     - [2.5 Kiểm tra/cast kiểu (`is`/`as`/pattern matching)](#25-kiểm-tracast-kiểu-isaspattern-matching)
   - [3. Interface](#3-interface)
     - [3.1 Khai báo/triển khai](#31-khai-báotriển-khai)
@@ -287,10 +287,12 @@ public class Dog : Animal
 
 - Dùng `base` để gọi member/ctor của lớp cha.
 
-### 2.4 Class trừu tượng vs interface
+### 2.4 Abstract class vs interface
 
 - **Abstract class**: chia sẻ *code + state*, có field, ctor, mức bảo vệ linh hoạt.  
-- **Interface**: chỉ hợp đồng thành viên, 1 type có thể implement **nhiều** interface.  
+- **Interface**: chỉ hợp đồng thành viên, 1 type có thể implement **nhiều** interface.
+- Ta dùng abstract class để tạo ra một bộ khung cho các lớp con, khi chúng ta có nhiều lớp với các thành phần giống nhau, mục đích để **dùng lại** code khai báo trong abstract class. Trong khi đó, interface đóng vai trò là một bản cam kết, một hợp đồng mà trong đó các lớp khác nhau có thể dựa trên đó để làm việc với nhau, một ta biết một class khi implement một interface, ta được đảm bảo rằng class này có chứa các hàm mà interface đó định nghĩa.
+- Từ góc độ OOP, abstract class đại diện cho lợi ích do tính **thừa kế** mang lại, trong khi đó interface hỗ trợ tính **trừu tượng**.
 
 ### 2.5 Kiểm tra/cast kiểu (`is`/`as`/pattern matching)
 
