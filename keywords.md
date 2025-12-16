@@ -1048,9 +1048,15 @@ sbyte x = -5;
   - `sealed class`: cấm kế thừa.  
   - `sealed override`: không cho override tiếp.
 
+Khi được áp dụng cho một lớp (class), từ khóa sealed sẽ ngăn các lớp khác kế thừa từ lớp đó. Trong ví dụ sau, lớp FinalType kế thừa từ lớp BaseType, nhưng không có lớp nào có thể kế thừa từ lớp FinalType.
+
 ```csharp
-public sealed class FinalType { }
+class BaseType {}
+sealed class FinalType : BaseType {}
 ```
+
+- Bạn cũng có thể dùng từ khóa `sealed` cho một phương thức (method) hoặc thuộc tính (property) đang override một phương thức/thuộc tính `virtual` trong lớp cơ sở (base class). Điều này cho phép bạn vẫn cho phép các lớp khác kế thừa từ lớp của bạn, nhưng ngăn chúng override một số phương thức/thuộc tính `virtual` cụ thể.
+- Bạn không thể áp dụng `sealed` chung với `abstract` khi khai báo lớp, vì bạn buộc phải cho phép thừa kế từ lớp `abstract` mới có thể dùng được.
 
 ---
 
