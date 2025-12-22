@@ -99,6 +99,7 @@ public async Task<string> DownloadAsync(string url)
 - Tại mỗi `await`:
   - Nếu tác vụ đã xong → chạy tiếp như bình thường.
   - Nếu chưa xong → method **tạm thoát ra**, trả về một `Task` cho caller, và khi tác vụ xong, nó sẽ quay lại chạy từ sau `await`.
+- Một hàm async không có bất kỳ lời gọi await nào bên trong sẽ **luôn luôn** thực thi tuần tự như một hàm thông thường.
 
 ---
 
