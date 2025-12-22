@@ -35,6 +35,7 @@
   - `U` → `uint`  
   - `L` → `long`  
   - `UL` (hoặc `LU`) → `ulong`
+- Có thể dùng dấu gạch dưới để giúp dễ đọc hơn, dấu gạch dưới không ảnh hưởng đến giá trị.
 
 ```csharp
 int    a = 42;        // thập phân
